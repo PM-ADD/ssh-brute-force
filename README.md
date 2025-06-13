@@ -39,7 +39,7 @@ pip install -r requirements.txt
 
 ```powershell
 python -m venv venv
-.env\Scriptsctivate
+.\venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
