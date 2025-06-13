@@ -59,7 +59,7 @@ pip install -r requirements.txt
 ### Basic usage with password list:
 
 ```bash
-python brute_ssh.py 192.168.1.100 -u root -P wordlists/passwords.txt --threads 5
+python advanced_ssh_brute.py 192.168.1.100 -u root -P wordlists/passwords.txt --threads 5
 ```
 
 ### Using username and password lists:
