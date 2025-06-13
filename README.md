@@ -27,3 +27,9 @@ sudo apt install python3-venv -y
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
+'''
+
+##  Or, for global install (not recommended on Kali):
+'''bash
+pip install --break-system-packages -r requirements.txt
+'''
