@@ -59,17 +59,17 @@ These files are passed to the script using command-line arguments.
 
 ### ✅ Linux / Kali
 ```bash
-python brute_ssh.py 192.168.1.100 -U wordlists/users.txt -P wordlists/passwords.txt --threads 5
+python advanced_ssh_brute.py 192.168.1.100 -U wordlists/users.txt -P wordlists/passwords.txt --threads 5
 ```
 
 ### ✅ Windows (PowerShell)
 ```powershell
-python brute_ssh.py 192.168.1.100 -U wordlists\users.txt -P wordlists\passwords.txt --threads 5
+python advanced_ssh_brute.py 192.168.1.100 -U wordlists\users.txt -P wordlists\passwords.txt --threads 5
 ```
 
 ### ✅ macOS
 ```bash
-python3 brute_ssh.py 192.168.1.100 -U wordlists/users.txt -P wordlists/passwords.txt --threads 5
+python3 advanced_ssh_brute.py 192.168.1.100 -U wordlists/users.txt -P wordlists/passwords.txt --threads 5
 ```
 
 ---
