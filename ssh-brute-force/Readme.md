@@ -92,6 +92,19 @@ python advanced_ssh_brute.py 192.168.1.100 -u admin --generate --min-length 3 --
 
 ---
 
+### 📝 Example Command
+
+```bash
+python advanced_ssh_brute.py 192.168.1.100 -U wordlists/users.txt -P wordlists/passwords.txt --threads 5
+```
+
+Or using password generation:
+
+```bash
+python advanced_ssh_brute.py 192.168.1.100 -u root --generate --min-length 3 --max-length 4 --chars abc123 --threads 5
+```
+---
+
 ## 💾 Output
 
 - ✅ Successful logins are saved to `credentials.txt`
